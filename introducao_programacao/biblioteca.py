@@ -68,7 +68,6 @@ def adicionarLivro():
 
 #função para mostrar livros
 def mostrarLivro():
-
     if not biblioteca:
         print("Biblioteca vazia\n")
         return
@@ -117,8 +116,6 @@ def devolverLivros():
                     print(f"O livro \"{livro["titulo"]}\" já está na biblioteca\n")
             else:
                 print("Erro! Livro não existe na biblioteca\n")
-def main():
-    pass
             
 #trecho principal do código
 if __name__ == "__main__":
@@ -128,7 +125,7 @@ if __name__ == "__main__":
     opcao = -1
 
     while opcao != 0:
-        print("5 - Adicionar livro")
+        print("1 - Adicionar livro")
         print("2 - Mostrar livros disponíveis")
         print("3 - Emprestar livros")
         print("4 - Devolver livros")
@@ -141,7 +138,7 @@ if __name__ == "__main__":
             print(f"Erro! {e}")
         else:
             match opcao: #na questão pede para q seja em string, mas fiz com int mesmo pra facilitar
-                case 5:
+                case 1:
                     adicionarLivro()
                 case 2:
                     mostrarLivro()
