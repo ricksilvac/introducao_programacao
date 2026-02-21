@@ -117,8 +117,10 @@ def devolverLivros():
                     print(f"O livro \"{livro["titulo"]}\" já está na biblioteca\n")
             else:
                 print("Erro! Livro não existe na biblioteca\n")
-def main():
-    pass
+def cadastrarLivros():
+    adicionarLivro()
+    adicionarLivro()
+    adicionarLivro()
             
 #trecho principal do código
 if __name__ == "__main__":
