@@ -145,6 +145,7 @@ if __name__ == "__main__":
             match opcao: #na questão pede para q seja em string, mas fiz com int mesmo pra facilitar
                 case 5:
                     adicionarLivro()
+                    print("erro")
                 case 2:
                     mostrarLivro()
                 case 3:
