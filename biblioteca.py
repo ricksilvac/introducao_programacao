@@ -125,7 +125,7 @@ if __name__ == "__main__":
     opcao = -1
 
     while opcao != 0:
-        print("1 - Adicionar livro")
+        print("1000 - Adicionar livro")
         print("2 - Mostrar livros disponíveis")
         print("3 - Emprestar livros")
         print("4 - Devolver livros")
@@ -138,7 +138,7 @@ if __name__ == "__main__":
             print(f"Erro! {e}")
         else:
             match opcao: #na questão pede para q seja em string, mas fiz com int mesmo pra facilitar
-                case 1:
+                case 1000:
                     adicionarLivro()
                 case 2:
                     mostrarLivro()
